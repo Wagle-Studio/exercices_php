@@ -80,3 +80,28 @@ h3 {
 .inputboxStorage > select {
   width: max-content;
 }
+
+.toast {
+  padding: 8px 12px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.toast--success {
+  background-color: #28a745;
+}
+
+.toast--error {
+  background-color: #dc3545;
+}
+
+.toast--streamError {
+  background-color: #dc3545;
+}
+
+.toast--unprocessable {
+  background-color: #dc3545;
+}

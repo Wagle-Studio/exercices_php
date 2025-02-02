@@ -24,6 +24,9 @@ require_once "./config.php";
             <li>
                 <a href="<?php echo BASE_URL . "/00_PDO_CAMPUS/index.php" ?>">00 PDO CAMPUS</a>
             </li>
+            <li>
+                <a href="<?php echo BASE_URL . "/00_CRUD_CSV/index.php" ?>">00 CRUD CSV</a>
+            </li>
         </ul>
     </main>
 </body>

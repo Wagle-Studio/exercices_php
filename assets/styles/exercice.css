@@ -58,3 +58,83 @@
   border: 2px solid black;
   border-radius: 3px;
 }
+
+.exerciceBoxStorageToolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.exerciceBoxStorageBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.exerciceBoxStorageBodyTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.exerciceBoxStorageBodyTable th,
+.exerciceBoxStorageBodyTable td {
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.exerciceBoxStorageBodyTable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.exerciceBoxStorageBodyTable th:nth-child(1) {
+  width: 200px;
+}
+
+.exerciceBoxStorageBodyTable th:nth-child(3) {
+  width: 230px;
+}
+
+.exerciceBoxStorageBodyTable tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.exerciceBoxStorageBodyTable tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.exerciceBoxStorageBodyTable tbody tr td:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.exerciceForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exerciceFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exerciceFormGroup label {
+  font-weight: bold;
+}
+
+.exerciceFormGroup input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.exerciceFormActions {
+  display: flex;
+  gap: 10px;
+}
