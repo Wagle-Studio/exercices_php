@@ -1,6 +1,6 @@
 # 00 CRUD CSV
 
-🚀 CRUD dans un fichier CSV
+🚀 Effectuer le traitement des données POST pour réaliser le CRUD d'un model et intéragir avec un fichier CSV
 
 ## Informations
 

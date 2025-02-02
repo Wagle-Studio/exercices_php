@@ -27,6 +27,9 @@ require_once "./config.php";
             <li>
                 <a href="<?php echo BASE_URL . "/00_CRUD_CSV/index.php" ?>">00 CRUD CSV</a>
             </li>
+            <li>
+                <a href="<?php echo BASE_URL . "/00_AUTH_SESSION_CSV/index.php" ?>">00 Auth session CSV</a>
+            </li>
         </ul>
     </main>
 </body>

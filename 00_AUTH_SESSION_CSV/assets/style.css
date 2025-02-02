@@ -1,0 +1,54 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.form:not(:first-child) {
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav {
+    display: flex;
+}
+
+header>nav>ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}

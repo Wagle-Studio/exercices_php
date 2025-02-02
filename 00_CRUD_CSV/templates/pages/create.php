@@ -18,6 +18,17 @@ require_once "./../../../config.php";
 
 <body>
     <main>
+        <div class="appExerciceHeader">
+            <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+            </svg>
+            <a href="<?php echo BASE_URL . "/index.php"; ?>">Retour à l'accueil</a>
+        </div>
         <article class="exercicePlayground">
             <div class="exerciceHeader">
                 <div class="exerciceToolbar">
