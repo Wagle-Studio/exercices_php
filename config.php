@@ -1,8 +1,8 @@
 <?php
 
-define("BASE_URL", "<BASE_URL_DE_VOTRE_SITE_SANS_SLASH_A_LA_FIN>");
-define("PROJECT_ROOT_PATH", "<CHEMIN_ABSOLU_VERS_LE_PROJET_SANS_SLAHS_A_LA_FIN>");
+define("BASE_URL", "http://localhost/~kevin/SIMPLON/PHP/exercices_php");
+define("PROJECT_ROOT_PATH", "/home/kevin/SIMPLON/PHP/exercices_php");
 define("DATABASE_HOST", "localhost");
-define("DATABASE_USERNAME", "<NOM_DU_USER_DB>");
-define("DATABASE_PASSWORD", "<MOT_DE_PASSE_DU_USER_DB>");
-define("DATABASE_NAME", "campus"); // Ne pas modifier.
+define("DATABASE_NAME", "campus");
+define("DATABASE_USERNAME", "kevin");
+define("DATABASE_PASSWORD", "root");
