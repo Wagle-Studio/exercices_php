@@ -33,6 +33,9 @@ require_once "./config.php";
             <li>
                 <a href="<?php echo BASE_URL . "/00_PHP_DISCOVER/index.php" ?>">00 PHP discover</a>
             </li>
+            <li>
+                <a href="<?php echo BASE_URL . "/00_DIVERS/index.php" ?>">00 Divers</a>
+            </li>
         </ul>
     </main>
 </body>
