@@ -1,7 +1,7 @@
 <?php
-
-require_once __DIR__ . "./../class/Db.php";
-require_once __DIR__ . "./../../class/Student.php";
+require_once "./../../config.php";
+require_once PROJECT_ROOT_PATH . "/05_PDO_CAMPUS/class/Student.php";
+require_once PROJECT_ROOT_PATH . "/05_PDO_CAMPUS/correction/class/Db.php";
 
 class StudentRepository extends Db
 {
